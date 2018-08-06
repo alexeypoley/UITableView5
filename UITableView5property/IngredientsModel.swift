@@ -74,12 +74,12 @@ var testHop9 = Hop(id: 12, name: "American", alpha: 0.12, mass: 0.402)
 var testHop10 = Hop(id: 13, name: "Gearge", alpha: 0.13, mass: 0.5)
 
 
-var testGrain1 = Grain(id: 14, name: "English Grain", sigma: 0.2323, mass: 0.434)
-var testGrain2 = Grain(id: 15, name: "Russian Grain", sigma: 0.923, mass: 0.012)
-var testGrain3 = Grain(id: 16, name: "English Grain", sigma: 0.323, mass: 0.34)
-var testGrain4 = Grain(id: 17, name: "Russian Grain", sigma: 0.23, mass: 0.12)
-var testGrain5 = Grain(id: 18, name: "English Grain", sigma: 0.223, mass: 0.454)
-var testGrain6 = Grain(id: 19, name: "Russian Grain", sigma: 0.213, mass: 0.52)
+var testGrain1 = Grain(id: 14, name: "English 1", sigma: 0.2323, mass: 0.434)
+var testGrain2 = Grain(id: 15, name: "Russian 2", sigma: 0.923, mass: 0.012)
+var testGrain3 = Grain(id: 16, name: "English 3", sigma: 0.323, mass: 0.34)
+var testGrain4 = Grain(id: 17, name: "Russian 4", sigma: 0.23, mass: 0.12)
+var testGrain5 = Grain(id: 18, name: "English 5", sigma: 0.223, mass: 0.454)
+var testGrain6 = Grain(id: 19, name: "Russian 6", sigma: 0.213, mass: 0.52)
 
 
 
