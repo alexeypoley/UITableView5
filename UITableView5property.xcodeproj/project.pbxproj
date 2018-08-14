@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C53D1C32119FDB50007BBBC /* addVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53D1C22119FDB50007BBBC /* addVC.swift */; };
 		9C71EED61E9A8F92006DFB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C71EED51E9A8F92006DFB26 /* AppDelegate.swift */; };
 		9C71EEDB1E9A8F92006DFB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C71EED91E9A8F92006DFB26 /* Main.storyboard */; };
 		9C71EEDE1E9A8F92006DFB26 /* UITableView5property.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C71EEDC1E9A8F92006DFB26 /* UITableView5property.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C53D1C22119FDB50007BBBC /* addVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addVC.swift; sourceTree = "<group>"; };
 		9C71EED21E9A8F92006DFB26 /* UITableView5property.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView5property.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C71EED51E9A8F92006DFB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C71EEDA1E9A8F92006DFB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				9C71EED51E9A8F92006DFB26 /* AppDelegate.swift */,
 				9CBA02131E9BCFD100261D26 /* mainTableViewController.swift */,
 				9CBA02111E9BCF7E00261D26 /* detailTableViewController.swift */,
+				9C53D1C22119FDB50007BBBC /* addVC.swift */,
 				9CA56AEB211800AF00A5F76A /* IngredientsModel.swift */,
 				9C71EED91E9A8F92006DFB26 /* Main.storyboard */,
 				9C71EEDF1E9A8F92006DFB26 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C53D1C32119FDB50007BBBC /* addVC.swift in Sources */,
 				9CA56AEC211800AF00A5F76A /* IngredientsModel.swift in Sources */,
 				9C71EEDE1E9A8F92006DFB26 /* UITableView5property.xcdatamodeld in Sources */,
 				9C71EED61E9A8F92006DFB26 /* AppDelegate.swift in Sources */,

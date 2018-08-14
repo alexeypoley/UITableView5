@@ -14,6 +14,7 @@ let identifireDetail = "cellDetail"
 
 class detailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var cellDetail: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
@@ -139,15 +140,43 @@ class detailViewController: UIViewController, UITableViewDataSource, UITableView
     }
 
 
+    
+    /*
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     if segue.identifier == "edit" {
+     let path = tableView.indexPathForSelectedRow
+     let destination = segue.destination as! detailViewController
+     
+     
+     */
 
 //при сохранении формы передать переменным значения полей
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "save" {
-            nameString = nameTextField.text
+      //  if segue.identifier == "save" {
+      //      nameString = nameTextField.text
       //      sgString = sgTextField.text
        //     ibuString = ibuTextField.text
         //    ebcString = ebcTextField.text
         //    alcString = alcTextField.text
+       // }
+        
+        if segue.identifier == "addVCSegue" {
+            if cellDetail.indexPathForSelectedRow?.section == 0 {
+                
+                let destination = segue.destination as! addViewController
+                let path = cellDetail.indexPathForSelectedRow
+                destination.namesTF = hopArrayDetail[(path?.row)!].name
+                destination.alphaTF = hopArrayDetail[(path?.row)!].alpha
+                destination.massTF = hopArrayDetail[(path?.row)!].mass
+            }
+            if cellDetail.indexPathForSelectedRow?.section == 1 {
+                let destination = segue.destination as! addViewController
+                let path = cellDetail.indexPathForSelectedRow
+                destination.namesTF = grainArrayDetail[(path?.row)!].name
+                destination.alphaTF = grainArrayDetail[(path?.row)!].sigma
+                destination.massTF = grainArrayDetail[(path?.row)!].mass
+            }
+            
         }
 
     }

@@ -112,17 +112,13 @@ class mainTableViewController: UITableViewController {
             let destination = segue.destination as! detailViewController
 
             //передаем значения в сигвей по идентификатору во временные переменные на detail A-B
-//            destination.index = path?.row
-//            destination.nameArray = nameData
-//            destination.sgArray = sgData
-//            destination.ibuArray = ibuData
-//            destination.ebcArray = ebcData
-//            destination.alcArray = alcData
+
             
             destination.index = path?.row
             destination.nameArray = recipesArray[(path?.row)!].name
             destination.hopArrayDetail = recipesArray[(path?.row)!].hopsArray
             destination.grainArrayDetail = recipesArray[(path?.row)!].grainsArray
+            
                // destination.sgArray =
                // destination.ibuArray =
                // destination.ebcArray =
